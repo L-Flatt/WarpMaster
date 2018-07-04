@@ -1,0 +1,12 @@
+name: WarpMaster
+author: DelLosLeones
+api: [3.0.0, 4.0.0]
+version: 2.1.0
+main: dellosleones\WarpMaster\WarpMaster
+commands:
+ 워프:
+  permission: warpmaster.warp
+  description: 워프 관련 명령어
+permissions:
+ warpmaster.warp:
+  default: true
